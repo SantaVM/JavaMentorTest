@@ -76,4 +76,8 @@ public class Main {
 			throw new IllegalArgumentException("Wrong expression entered");
 		}
 	}
+
+	public static void addTemplate(Template template){
+		templates.add( template );
+	}
 }
